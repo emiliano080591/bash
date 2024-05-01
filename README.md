@@ -1,5 +1,16 @@
 # Shell scripting repository
 
+## Shell script order and checklist
+
++ Shebang
++ Comments/file header
++ Global variables
++ Functions
+    * Use local variables
++ Main script contents
++ Exit with an exit status
+    * exit status at various exit points
+
 ### File operators (test)
 | Operator    | Description |
 | -------- | ------- |

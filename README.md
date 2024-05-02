@@ -35,3 +35,13 @@
 | arg1 -le qrg2  | True if arg1 is less than or equal to arg2 |
 | arg1 -gt qrg2  | True if arg1 is greater than arg2 |
 | arg1 -ge qrg2  | True if arg1 is greater than or equal arg2 |
+
+### Shell variables
+| Operator    | Description |
+| -------- | ------- |
+| $PATH  | List the folders that containts executable files |
+| $HOME  | It's absolute path to the current user's home |
+| $USER  | Contains the username of the current user |
+| $HOSTNAME  | Contains the name of the current computer |
+| $HOSTTYPE  | Contains the type of processor architecture |
+| $PS1  | Contains the prompt string shown in the terminal before each command |

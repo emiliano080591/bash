@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/local/bin/bash
 # Execute in termnial $> bash +x debug.sh
 
 

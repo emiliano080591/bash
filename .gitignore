@@ -1,3 +1,4 @@
 /back
 *.info
 *.txt
+.vscode

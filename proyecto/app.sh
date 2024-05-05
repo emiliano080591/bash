@@ -2,7 +2,7 @@
 
 
 while true; do
-    #clear
+    clear
     if [[ $REPLY -lt 1 || $REPLY -gt 4 && $REPLY != "" ]]; then
         echo "Opcion invalida"
     fi

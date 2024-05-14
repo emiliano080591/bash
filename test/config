@@ -1,0 +1,11 @@
+[alias PR_MVP]
+
+sso_alias=test
+region=us-east-1
+config=sso
+
+[alias PR_MVP_2]
+
+sso_alias=test
+region=us-east-1
+config=sso

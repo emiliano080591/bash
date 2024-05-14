@@ -12,6 +12,7 @@ numero_de_elementos=${#OPCIONES[@]}
 echo "${numero_de_elementos}"
 
 OPCION_INVALIDA=""
+OPCION=-1
 
 while true; do
     clear
@@ -26,6 +27,9 @@ while true; do
         OPCION_INVALIDA="Opcion invalida"
     else    
         # TODO: Aca va el código para cargar las variables y ejecutar los comandos de AWS CLI
+        OPCION=$REPLY
         break
     fi
 done
+
+echo "Elegiste -> ${OPCION}"
